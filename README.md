@@ -22,4 +22,21 @@ Como os principais indicadores macroeconômicos brasileiros se comportaram nos �
 
 ## Tecnologias
 
-Python, Pandas, Requests, Jupyter Notebook, MySQL, Power BI
+Python, Pandas, Requests, Jupyter Notebook
+
+## Solução
+
+Coleta Automatizada via API do Banco Central, tratamento dos dados com Pandas e análise exploratória com visualizações em Python para identificar padrões e correlações entre os indicadores.
+
+## O que foi feito
+
+- Coleta e tratamento de dados das séries históricas do Banco Central
+- Análise da evolução da SELIC com identificação dos momentos de inflexão
+- Cálculo e visualização da correlação entre SELIC, IPCA e Câmbio (USD/BRL)
+- Geração de gráficos de linhas, dispersão e heatmaps para comunicar os padrões encontrados
+
+## Principais Insights
+
+- A correlação entre SELIC e IPCA foi de -0.16, indicando relação negativa fraca, o efeito da política monetária na inflação ocorre com defasagem de 6 a 12 meses
+- A correlação entre SELIC e Câmbio foi de 0.002, praticamente nula no período
+- A correlação entre Câmbio e IPCA foi de 0.03, outros fatores como pandemia e energia dominaram o IPCA no período analisado
